@@ -1,4 +1,28 @@
 <!DOCTYPE html>
-<html>
-    <p>Hello World!</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My very own webpage!</title>
+</head>
+<body>
+    <h1>Hello, Welcome!!</h1>
+    <h1 id="person_name"></h1>
+    <h1 id="person_year"></h1>
+    <h1 id="person_degree"></h1>
+
+    <script>
+
+        const person ={
+          Name: "Katelyn Coming",
+          Year: "2nd Year",
+          Degree: "BSIT"
+        }
+        console.log("I'm " + person.Name);
+    
+    document.getElementById("person_name").innerHTML = "Name: " + person.Name;
+
+    </script>
+
+</body>
 </html>
